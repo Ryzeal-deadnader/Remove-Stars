@@ -111,3 +111,19 @@ int removeStars(int x, int y) {//核心功能实现
     }//消完之后front就是0，查找的新块放入队尾导致rear为1继续循环，达成找着了全给消除的作用
     return get_score;//返回得分
 }
+
+void fallStars() {
+    for (int j = 0; j < COLS; j++) {
+        int temp[100] = { 0 };
+        int idx = ROWS - 1;
+
+        for (int i = ROWS - 1; i >= 0; i--) {
+            if (board[i][j] != empty) {
+                temp[idx--] = board[i][j];
+            }
+        }
+        for (int i = 0; i < ROWS; i++) {
+            board[i][j] = temp[i];
+        }
+    }
+}
