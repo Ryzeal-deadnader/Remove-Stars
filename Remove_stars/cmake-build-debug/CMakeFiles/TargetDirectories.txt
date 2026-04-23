@@ -1,0 +1,3 @@
+D:/CLionProjects/Remove-Stars/Remove_stars/cmake-build-debug/CMakeFiles/Remove-stars.dir
+D:/CLionProjects/Remove-Stars/Remove_stars/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLionProjects/Remove-Stars/Remove_stars/cmake-build-debug/CMakeFiles/rebuild_cache.dir

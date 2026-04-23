@@ -1,0 +1,4 @@
+# ninja log v6
+2	293	7983163216182449	build.ninja	decbb4ba5f9c4949
+1	815	7983122794878550	CMakeFiles/Remove_stars.dir/main.cpp.obj	8e38c4df316ab965
+2	293	7983163216160500	D:/CLionProjects/Remove-Stars/Remove_stars/cmake-build-debug/cmake_install.cmake	decbb4ba5f9c4949
